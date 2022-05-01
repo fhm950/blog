@@ -1,6 +1,8 @@
 import React from 'react';
 import moment from 'moment';
 import Link from 'next/link';
+import autoprefixer from 'autoprefixer';
+import Author from './Author';
 
 const AdjacentPostCard = ({ post, position }) => (
   <>
